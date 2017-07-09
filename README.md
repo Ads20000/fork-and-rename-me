@@ -1,10 +1,8 @@
 <h1 align="center">
-  <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="Project">
-  <br />
-  [Project]
+  get_iplayer
 </h1>
 
-<p align="center"><b>This is the snap for [Project]</b>, <i>"Single-line elevator pitch for your amazing snap"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for get_iplayer</b>, <i>BBC iPlayer Indexing Tool and PVR</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -16,7 +14,7 @@ distributions.</p>
 ## Install
 
     sudo apt install snapd-xdg-open
-    sudo snap install my-snap-name
+    sudo snap install get-iplayer
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
@@ -28,13 +26,13 @@ distributions.</p>
 
 ## Remaining tasks
 
-Snapcrafters ([join us]()) are working to land snap install documentation and
-the [snapcraft.yaml](https://github.com/snapcrafters/fork-and-rename-me/blob/master/snap/snapcraft.yaml)
-upstream so [Project] can authoritatively publish future releases.
+Snapcrafters ([join us](https://github.com/snapcrafters/fork-and-rename-me/blob/master)) are working to land snap install documentation and
+the [snapcraft.yaml](https://github.com/snapcrafters/get-iplayer/blob/master/snap/snapcraft.yaml)
+upstream so get_iplayer can authoritatively publish future releases.
 
   - [x] Fork the [Snapcrafters template](https://github.com/snapcrafters/fork-and-rename-me) repository to your own GitHub account
-  - [ ] Rename the forked Snapcrafters template repository
-  - [ ] Update logos and references to `[Project]` and `[my-snap-name]`
+  - [x] Rename the forked Snapcrafters template repository
+  - [x] Update logos and references to `[Project]` and `[my-snap-name]`
   - [ ] Create a snap that runs in `devmode`
   - [ ] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
@@ -62,9 +60,13 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 
 ## The Snapcrafters
 
-| [![Your Name](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431/?s=128)](https://github.com/yourname/) |
+| [![Ads20000](https://s.gravatar.com/avatar/df14a0af7859c115147d582b1d3c85bf?s=80)](https://github.com/ads20000/) |
 | :---: |
-| [Your Name](https://github.com/yourname/) |
+| [Ads20000](https://github.com/ads20000/) |
+
+| [![Leo Arias](http://s.gravatar.com/avatar/817df62f2298207cd50b03f2b8858e25?s=80)](https://github.com/elopio/) |
+| :---: |
+| [Leo Arias](https://github.com/elopio/) |
 
 <!-- Uncomment and modify this when you have upstream contacts
 ## Upstream
