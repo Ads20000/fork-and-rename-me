@@ -27,7 +27,7 @@ distributions.</p>
 ## Remaining tasks
 
 Snapcrafters ([join us](https://github.com/snapcrafters/fork-and-rename-me/blob/master)) are working to land snap install documentation and
-the [snapcraft.yaml](https://github.com/snapcrafters/get-iplayer/blob/master/snap/snapcraft.yaml)
+the [snapcraft.yaml](https://github.com/ads20000/get-iplayer/blob/master/snap/snapcraft.yaml)
 upstream so get_iplayer can authoritatively publish future releases.
 
   - [x] Fork the [Snapcrafters template](https://github.com/snapcrafters/fork-and-rename-me) repository to your own GitHub account
