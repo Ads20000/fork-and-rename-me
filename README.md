@@ -33,7 +33,7 @@ upstream so get_iplayer can authoritatively publish future releases.
   - [x] Fork the [Snapcrafters template](https://github.com/snapcrafters/fork-and-rename-me) repository to your own GitHub account
   - [x] Rename the forked Snapcrafters template repository
   - [x] Update logos and references to `[Project]` and `[my-snap-name]`
-  - [ ] Create a snap that runs in `devmode`
+  - [ ] Create a snap that runs in `devmode` - does kinda work, but I [need to get the locale error fixed](https://forum.snapcraft.io/t/snapping-get-iplayer/1120)
   - [ ] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
   - [ ] Publish the `devmode` snap in the Snap store edge channel
