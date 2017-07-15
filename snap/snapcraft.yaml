@@ -7,11 +7,11 @@ grade: stable
 
 apps:
   get-iplayer:
-    command: scripts/run-cli.pl
+    command: run-cli.pl
     plugs:
       - network
   server:
-    command: scripts/run-server.pl
+    command: run-server.pl
     daemon: simple
 
 parts:
@@ -35,6 +35,8 @@ parts:
     source: https://bitbucket.org/wez/atomicparsley
     source-type: hg
     source-commit: 9183fff
+    organize:
+      README.md: README-atomicparsley.md
   launcher:
     plugin: dump
     source: .
