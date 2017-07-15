@@ -2,12 +2,14 @@ name: get-iplayer
 version: 3.01
 summary: A utility for downloading TV and radio from BBC iPlayer
 description: BBC iPlayer Indexing Tool and PVR
-confinement: devmode
-grade: devel
+confinement: strict
+grade: stable
 
 apps:
   get-iplayer:
     command: scripts/run-cli.pl
+    plugs:
+      - network
   server:
     command: scripts/run-server.pl
     daemon: simple
@@ -25,11 +27,17 @@ parts:
       - libxml-simple-perl
       - libxml-libxml-perl
       - libcgi-pm-perl
+    after:
+      - desktop-glib-only
       - ffmpeg
-      - atomicparsley
+  atomicparsley:
+    plugin: dump
+    source: https://bitbucket.org/wez/atomicparsley
+    source-type: hg
+    source-commit: 9183fff
   launcher:
     plugin: dump
     source: .
     organize:
       run-cli.pl: scripts/run-cli.pl
-run-server.pl: scripts/run-server.pl
+      run-server.pl: scripts/run-server.pl
