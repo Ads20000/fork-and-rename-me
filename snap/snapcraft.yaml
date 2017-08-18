@@ -30,13 +30,15 @@ parts:
     after:
       - desktop-glib-only
       - ffmpeg
+    organize:
+      README-get-iplayer.md: README.md
   atomicparsley:
     plugin: dump
     source: https://bitbucket.org/wez/atomicparsley
     source-type: hg
     source-commit: 9183fff
     organize:
-      README.md: README-atomicparsley.md
+      README-atomicparsley.md: README.md
   launcher:
     plugin: dump
     source: .
