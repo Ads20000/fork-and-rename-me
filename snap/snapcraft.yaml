@@ -31,14 +31,14 @@ parts:
       - desktop-glib-only
       - ffmpeg
     install:
-      mv README.md README-get-iplayer.md
+      mv README.md $SNAPCRAFT_PART_INSTALL/README-get-iplayer.md
   atomicparsley:
     plugin: dump
     source: https://bitbucket.org/wez/atomicparsley
     source-type: hg
     source-commit: 9183fff
     install:
-      mv README.md README-atomicparsley.md
+      mv README.md $SNAPCRAFT_PART_INSTALL/README-atomicparsley.md
   launcher:
     plugin: dump
     source: .
