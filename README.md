@@ -34,7 +34,7 @@ upstream so get_iplayer can authoritatively publish future releases.
     - If you have already forked the Snapcrafter template to your account and want to create another snap, you'll need to use GitHub's [Import repository](https://github.com/new/import) feature because you can only fork a repository once.
   - [x] Rename the forked Snapcrafters template repository
   - [x] Update logos and references to `[Project]` and `[my-snap-name]`
-  - [ ] Create a snap that runs in `devmode` - does kinda work, but I [need to get the locale error fixed](https://forum.snapcraft.io/t/snapping-get-iplayer/1120)
+  - [ ] Create a snap that runs in `devmode` - does kinda work, but I [need to get the locale error fixed](https://forum.snapcraft.io/t/snapping-get-iplayer/1120), also this is [failing to build on build.snapcraft.io](https://github.com/Ads20000/get-iplayer/issues/1)
   - [ ] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
   - [ ] Publish the `devmode` snap in the Snap store edge channel
