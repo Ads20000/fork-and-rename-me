@@ -1,5 +1,5 @@
 name: get-iplayer-ads20000
-version: 3.01
+version: 3.07
 summary: A utility for downloading TV and radio from BBC iPlayer
 description: BBC iPlayer Indexing Tool and PVR
 confinement: strict
@@ -17,7 +17,7 @@ apps:
 parts:
   get-iplayer:
     source: https://github.com/get-iplayer/get_iplayer.git
-    source-tag: v3.01
+    source-tag: v3.07
     plugin: dump
     stage-packages:
       - perl-base
